@@ -19,7 +19,7 @@ public:
     }
 
     // you can use 'at' to both set and retrieve values in the 2D_Array
-    int& at (int x, int y) {
+    T& at (int x, int y) {
         return linear_array[(x*m) + y];
     }
 
